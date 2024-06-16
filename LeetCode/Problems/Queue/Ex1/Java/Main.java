@@ -49,6 +49,7 @@ class Solution {
                 }
             }
             queueD.remove(0);
+            //anc
             queueD.add(firstChar);
             if (!flag) {
                 break;
