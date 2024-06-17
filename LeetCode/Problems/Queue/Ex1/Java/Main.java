@@ -6,9 +6,10 @@ public class Main {
     public static void main(String[] args) {
 //        Solution sol = new Solution();
 //        System.out.println(sol.predictPartyVictory("DDR"));
-//        System.out.println("Hello world!");
-        SumOfSquare sumOfSquare = new SumOfSquare();
-        System.out.println(sumOfSquare.judgeSquareSum(3));
+ //       System.out.println("Hello world!");
+        Unique_Occurrences uni = new Unique_Occurrences();
+        int[] arrTest =  {1,2};
+        System.out.println(uni.uniqueOccurrences(arrTest));
     }
 }
 
