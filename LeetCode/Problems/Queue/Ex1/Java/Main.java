@@ -10,6 +10,8 @@ public class Main {
     }
 }
 
+
+
 class Solution {
     Character getOther(Character input) {
         if (input == 'D') {
