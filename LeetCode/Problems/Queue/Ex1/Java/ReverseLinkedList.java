@@ -8,11 +8,19 @@ public class ReverseLinkedList {
     }
 
     public ListNode reverseList(ListNode head) {
-        ListNode first = head;
-
-
-
-        return head;
+        if (head == null) return head;
+        ListNode node = head.next;
+        ListNode currentNode = head;
+        head.next = null;
+        while(node != null) {
+            currentNode = node;
+            node = node.next;
+            //System.out.println(currentNode.val);
+            currentNode.next = head;
+            head = currentNode;
+        }
+        //System.out.println(currentNode.val);
+        return currentNode;
     }
 
 }

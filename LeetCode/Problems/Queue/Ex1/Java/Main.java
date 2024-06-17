@@ -4,9 +4,11 @@ import java.util.Queue;
 
 public class Main {
     public static void main(String[] args) {
-        Solution sol = new Solution();
-        System.out.println(sol.predictPartyVictory("DDR"));
-        System.out.println("Hello world!");
+//        Solution sol = new Solution();
+//        System.out.println(sol.predictPartyVictory("DDR"));
+//        System.out.println("Hello world!");
+        SumOfSquare sumOfSquare = new SumOfSquare();
+        System.out.println(sumOfSquare.judgeSquareSum(3));
     }
 }
 
